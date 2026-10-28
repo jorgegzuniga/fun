@@ -1,2 +1,3 @@
 *.gba
 __pycache__/
+*.zip
