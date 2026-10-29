@@ -1,0 +1,186 @@
+{
+  "name": "FireRed Duo (Half-Folded)",
+  "identifier": "com.jorgegzuniga.gba.duo-halffolded",
+  "gameTypeIdentifier": "com.rileytestut.delta.game.gba",
+  "debug": false,
+  "representations": {
+    "iphone": {
+      "inner": {
+        "portrait": {
+          "assets": {
+            "large": "inner_portrait.png"
+          },
+          "items": [
+            {
+              "inputs": {
+                "up": "up",
+                "down": "down",
+                "left": "left",
+                "right": "right"
+              },
+              "frame": {
+                "x": 40,
+                "y": 575,
+                "width": 210,
+                "height": 210
+              },
+              "extendedEdges": {
+                "top": 18,
+                "bottom": 6,
+                "left": 18,
+                "right": 18
+              }
+            },
+            {
+              "inputs": [
+                "a"
+              ],
+              "frame": {
+                "x": 482,
+                "y": 588,
+                "width": 96,
+                "height": 96
+              },
+              "extendedEdges": {
+                "top": 12,
+                "bottom": 12,
+                "left": 12,
+                "right": 12
+              }
+            },
+            {
+              "inputs": [
+                "b"
+              ],
+              "frame": {
+                "x": 368,
+                "y": 666,
+                "width": 96,
+                "height": 96
+              },
+              "extendedEdges": {
+                "top": 12,
+                "bottom": 12,
+                "left": 12,
+                "right": 12
+              }
+            },
+            {
+              "inputs": [
+                "l"
+              ],
+              "frame": {
+                "x": 16,
+                "y": 470,
+                "width": 170,
+                "height": 54
+              },
+              "extendedEdges": {
+                "top": 10,
+                "bottom": 10,
+                "left": 10,
+                "right": 10
+              }
+            },
+            {
+              "inputs": [
+                "r"
+              ],
+              "frame": {
+                "x": 440,
+                "y": 470,
+                "width": 170,
+                "height": 54
+              },
+              "extendedEdges": {
+                "top": 10,
+                "bottom": 10,
+                "left": 10,
+                "right": 10
+              }
+            },
+            {
+              "inputs": [
+                "menu"
+              ],
+              "frame": {
+                "x": 278,
+                "y": 478,
+                "width": 70,
+                "height": 38
+              },
+              "extendedEdges": {
+                "top": 8,
+                "bottom": 8,
+                "left": 8,
+                "right": 8
+              }
+            },
+            {
+              "inputs": [
+                "select"
+              ],
+              "frame": {
+                "x": 214,
+                "y": 812,
+                "width": 84,
+                "height": 32
+              },
+              "extendedEdges": {
+                "top": 12,
+                "bottom": 12,
+                "left": 12,
+                "right": 12
+              }
+            },
+            {
+              "inputs": [
+                "start"
+              ],
+              "frame": {
+                "x": 328,
+                "y": 812,
+                "width": 84,
+                "height": 32
+              },
+              "extendedEdges": {
+                "top": 12,
+                "bottom": 12,
+                "left": 12,
+                "right": 12
+              }
+            }
+          ],
+          "screens": [
+            {
+              "inputFrame": {
+                "x": 0,
+                "y": 0,
+                "width": 240,
+                "height": 160
+              },
+              "outputFrame": {
+                "x": 13,
+                "y": 22,
+                "width": 600,
+                "height": 400
+              },
+              "placement": "controller"
+            }
+          ],
+          "mappingSize": {
+            "width": 626,
+            "height": 890
+          },
+          "extendedEdges": {
+            "top": 7,
+            "bottom": 7,
+            "left": 7,
+            "right": 7
+          },
+          "translucent": false
+        }
+      }
+    }
+  }
+}
