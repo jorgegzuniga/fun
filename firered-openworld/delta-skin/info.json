@@ -1,6 +1,6 @@
 {
-  "name": "FireRed Duo (Half-Folded)",
-  "identifier": "com.jorgegzuniga.gba.duo-halffolded",
+  "name": "FireRed Duo (Half-Folded) v2",
+  "identifier": "com.jorgegzuniga.gba.duo-halffolded-v2",
   "gameTypeIdentifier": "com.rileytestut.delta.game.gba",
   "debug": false,
   "representations": {

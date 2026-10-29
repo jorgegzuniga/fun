@@ -70,14 +70,17 @@ def draw(img):
 
 img = Image.new('RGB', (W * K, H * K))
 draw(img)
-img = img.resize((W * OUT_SCALE, H * OUT_SCALE), Image.LANCZOS)
+img = img.resize((W * OUT_SCALE, H * OUT_SCALE), Image.LANCZOS).convert('RGBA')
+# Delta draws the skin above the game view, so the screen area must be see-through.
+hole = Image.new('RGBA', (SCREEN['width'] * OUT_SCALE, SCREEN['height'] * OUT_SCALE), (0, 0, 0, 0))
+img.paste(hole, (SCREEN['x'] * OUT_SCALE, SCREEN['y'] * OUT_SCALE))
 img.save('inner_portrait.png', optimize=True)
 
 def item(inputs, f, edges=10):
     return {'inputs': inputs, 'frame': f, 'extendedEdges': {'top': edges, 'bottom': edges, 'left': edges, 'right': edges}}
 info = {
-    'name': 'FireRed Duo (Half-Folded)',
-    'identifier': 'com.jorgegzuniga.gba.duo-halffolded',
+    'name': 'FireRed Duo (Half-Folded) v2',
+    'identifier': 'com.jorgegzuniga.gba.duo-halffolded-v2',
     'gameTypeIdentifier': 'com.rileytestut.delta.game.gba',
     'debug': False,
     'representations': {'iphone': {'inner': {'portrait': {
